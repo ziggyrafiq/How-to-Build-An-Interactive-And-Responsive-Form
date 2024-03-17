@@ -1,0 +1,67 @@
+/*CSS3 Form General Styles for All Screens */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+ 
+
+input,textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Media Query for Mobile */
+@media screen and (min-width: 300px) {
+    form {
+        max-width: 600px;
+         font-size: 22px;
+    }
+
+    input,textarea, select {
+       font-size: 22px;
+}
+}
+
+/* Media Query for Tablets */
+@media screen and (min-width: 600px) {
+    form {
+        max-width: 600px;
+         font-size: 16px;
+    }
+    input,textarea, select {
+       font-size: 16px;
+}
+}
+
+/* Media Query for Desktops */
+@media screen and (min-width: 1024px) {
+    form {
+        max-width: 800px;
+    
+    }
+}
